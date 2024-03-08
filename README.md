@@ -1,2 +1,2 @@
 # chatbot-api
-ChatGPT AI问答助手
+星火AI问答助手
