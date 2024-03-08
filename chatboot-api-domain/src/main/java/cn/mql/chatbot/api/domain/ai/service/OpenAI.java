@@ -57,7 +57,7 @@ public class OpenAI implements IOpenAI {
             StringBuilder answers = new StringBuilder();
             List<Choices> choices =aiAnswer.getChoices();
             for(Choices choice : choices){
-                answers.append(choice.getText());
+                answers.append(choice.getMessage().getContent());
             }
             return answers.toString();
         }else{
